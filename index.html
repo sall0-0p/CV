@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orest Antoniuk - CV</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        /* Class to make your custom PNGs act like text emojis */
+        .custom-emoji {
+            height: 1.1em;
+            width: 1.1em;
+            margin-right: 0.25rem;
+            vertical-align: -0.15em;
+            display: inline-block;
+            object-fit: contain;
+        }
+
+        @media print {
+            @page {
+                margin: 0.5cm;
+                size: A4 portrait;
+            }
+            body {
+                background-color: white;
+            }
+            .print-avoid-break {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            .shadow-xl, .shadow-md {
+                box-shadow: none !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen py-8 print:py-0 text-gray-800">
+
+<div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden print:rounded-none print:shadow-none print:max-w-full print:w-full border-t-8 border-red-600 print:border-t-4">
+
+    <div class="grid grid-cols-1 md:grid-cols-3 print:grid-cols-3 gap-6 p-8 md:p-10 print:p-6">
+
+        <aside class="col-span-1 space-y-8 print:space-y-6">
+
+            <div class="flex flex-col items-center md:items-start print:items-start">
+                <div class="w-40 h-40 rounded-full bg-gray-200 border-4 border-white shadow-md overflow-hidden print-avoid-break">
+                    <img src="./profile.png" alt="Profile Photo" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <div class="space-y-3 print-avoid-break">
+                <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase">Contact</h3>
+                <ul class="space-y-2 text-sm font-medium text-gray-600">
+                    <li class="flex items-center">
+                        <img src="./pin.png" alt="Location" class="custom-emoji"> Krakow, Poland
+                    </li>
+                    <li class="flex items-center">
+                        <a href="mailto:antoniuk.orest@gmail.com" class="hover:text-red-600 transition-colors flex items-center">
+                            <img src="./email.png" alt="Email" class="custom-emoji"> antoniuk.orest@gmail.com
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="https://github.com/sall0-0p" class="hover:text-red-600 transition-colors flex items-center">
+                            <img src="./link.png" alt="Link" class="custom-emoji"> github.com/sall0-0p
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="https://lordbucket.eu" class="hover:text-red-600 transition-colors flex items-center">
+                            <img src="./globe.png" alt="Globe" class="custom-emoji"> lordbucket.eu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="space-y-3 print-avoid-break">
+                <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase">Tech Stack</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./coffee.png" alt="Java" class="custom-emoji"> Java
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./diamond.png" alt="C#/.NET" class="custom-emoji"> C#/.NET
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./monkey.png" alt="Typescript" class="custom-emoji"> Typescript
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./moon.png" alt="Lua" class="custom-emoji"> Lua
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./cabinet.png" alt="SQL" class="custom-emoji"> SQL
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./leaf.png" alt="Spring" class="custom-emoji"> Spring
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./green-circle.png" alt="Node.js" class="custom-emoji"> Node.js
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./city.png" alt="Vue" class="custom-emoji"> Vue
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./whale.png" alt="Docker" class="custom-emoji"> Docker
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./penguin.png" alt="Linux" class="custom-emoji"> Linux / POSIX
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./plug.png" alt="REST" class="custom-emoji"> REST
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./brain.png" alt="AI" class="custom-emoji"> AI
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./robot.png" alt="Godot" class="custom-emoji"> Godot
+                    </span>
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-lg text-sm font-semibold border border-gray-200 flex items-center">
+                        <img src="./puzzle.png" alt="Architecture" class="custom-emoji"> Architecture
+                    </span>
+                </div>
+            </div>
+
+            <div class="space-y-3 print-avoid-break">
+                <h3 class="text-xs font-bold tracking-widest text-gray-400 uppercase">Languages</h3>
+                <ul class="space-y-1 text-sm font-medium text-gray-600">
+                    <li class="flex justify-between"><span>English</span> <span class="text-gray-400">Fluent</span></li>
+                    <li class="flex justify-between"><span>Polish</span> <span class="text-gray-400">B1</span></li>
+                    <li class="flex justify-between"><span>Ukrainian</span> <span class="text-gray-400">Native</span></li>
+                </ul>
+            </div>
+
+            <div class="hidden print:block print-avoid-break mt-6">
+                <h3 class="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-2">Scan for Web Version</h3>
+                <div class="w-24 h-24 border border-gray-200 p-1 rounded-lg">
+                    <img src="./qr-code.png" alt="QR Code" class="w-full h-full grayscale">
+                </div>
+                <p class="text-[10px] text-gray-400 mt-1 font-medium">lordbucket.eu</p>
+            </div>
+
+        </aside>
+        <main class="col-span-1 md:col-span-2 print:col-span-2 space-y-8 print:space-y-6">
+
+            <div class="text-center md:text-left print:text-left">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Orest Antoniuk</h1>
+                <h2 class="text-xl md:text-2xl font-bold text-red-600 mt-1">Independent Software Engineer</h2>
+            </div>
+
+            <div class="print-avoid-break">
+                <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                    Final-semester student specializing in Java backend development. I am most effective (and passionate) when developing complex systems and am capable of designing them from start to finish.
+                </p>
+            </div>
+
+            <div class="print-avoid-break">
+                <h3 class="text-lg font-extrabold text-gray-800 border-b-2 border-gray-200 pb-2 mb-4">Experience</h3>
+
+                <div class="relative pl-4 border-l-2 border-red-200">
+                    <div class="absolute w-3 h-3 bg-red-500 rounded-full -left-[7px] top-1.5"></div>
+                    <div class="flex justify-between items-baseline mb-1">
+                        <h4 class="text-md font-bold text-gray-800">Your Company</h4>
+                        <span class="text-sm font-bold text-red-600">2026 - ???</span>
+                    </div>
+                    <p class="text-sm font-medium text-gray-500 mb-2">Backend Developer</p>
+                    <p class="text-sm text-gray-600">
+                        I am ready to bring my skills for writing clean, maintainable and architecturally mature systems to your company. I am eager to develop products used by your clients, collaborate with experienced people, and grow both my skills and your business.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-extrabold text-gray-800 border-b-2 border-gray-200 pb-2 mb-4">Featured Projects</h3>
+                <div class="space-y-4">
+                    <div class="border-2 border-gray-200 rounded-xl p-5 hover:border-red-300 transition-colors print-avoid-break bg-gray-50 print:bg-white">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-lg font-bold text-gray-800 flex items-center">
+                                <img src="./rocket.png" alt="Rocket" class="custom-emoji"> Language Learning App
+                            </h4>
+                            <div class="flex gap-3 text-sm font-bold text-red-600">
+                                <a href="https://github.com/sall0-0p/LangApp-Backend" class="hover:underline">GitHub</a>
+                                <a href="https://langapp.lordbucket.eu" class="hover:underline">Live Demo</a>
+                            </div>
+                        </div>
+                        <p class="text-xs font-bold text-gray-400 mb-3 uppercase tracking-wider">Java 17 • Spring • AI • REST • Vue 3</p>
+                        <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside ml-4">
+                            <li>Designed and built backend to handle courses, lessons and vocabulary for multiple languages using YAML parsers to seed relational course structures.</li>
+                            <li>Used Vertex AI (Gemini API) to generate exercises, using json to strictly enforce AI output format into Java records.</li>
+                            <li>Built an extensible codebase, using Strategy pattern for task generation, allowing easy expansion and new task types.</li>
+                            <li>Used Spring Security for JWT authentication, email verification. Deploying the project using the Docker with tiny deployment pipeline on commits.</li>
+                        </ul>
+                    </div>
+
+                    <div class="border-2 border-gray-200 rounded-xl p-5 hover:border-red-300 transition-colors print-avoid-break bg-gray-50 print:bg-white">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-lg font-bold text-gray-800 flex items-center">
+                                <img src="./wrench.png" alt="Wrench" class="custom-emoji"> Lua VM Operative System
+                            </h4>
+                            <div class="flex gap-3 text-sm font-bold text-red-600">
+                                <a href="https://github.com/sall0-0p/UwUKernel2" class="hover:underline">GitHub</a>
+                            </div>
+                        </div>
+                        <p class="text-xs font-bold text-gray-400 mb-3 uppercase tracking-wider">Lua • TypeScript • POSIX • OS Architecture • Linux</p>
+                        <ul class="text-sm text-gray-600 space-y-1 list-disc list-inside ml-4">
+                            <li>Developed a preemptive, multitasking microkernel for a Lua virtual machine, successfully adapting low-level OS paradigms to a highly constrained environment.</li>
+                            <li>Architected the core system, featuring Mach-inspired port-based IPC, capability-based file descriptors, a custom Virtual File System (VFS), and secure process sandboxing.</li>
+                            <li>Authored the kernel in Lua while engineering the userspace—including the system manager and drivers—in TypeScript, utilizing a TS-to-Lua compilation pipeline.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="print-avoid-break">
+                <h3 class="text-lg font-extrabold text-gray-800 border-b-2 border-gray-200 pb-2 mb-4">Education</h3>
+
+                <div class="flex justify-between items-baseline">
+                    <div>
+                        <h4 class="text-md font-bold text-gray-800">Krakow University of Economics</h4>
+                        <p class="text-sm font-medium text-gray-500">BSc. Applied Informatics</p>
+                    </div>
+                    <span class="text-sm font-bold text-gray-400">2026 (Soon™)</span>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</div>
+
+</body>
+</html>
